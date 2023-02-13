@@ -3,10 +3,12 @@ public class ThisUse {
 
 	String name;
 	int age;
+	
 
 	public ThisUse() {
 		//System.out.println(name);    //Always have to be first statement inside constructor.
-		this("Sammy", 50);   //This will invoke Constructor based on signature
+		this("Baban", 50);   //This will invoke Constructor based on signature
+		System.out.println("Wassup dude!");
 	}
 
 	public ThisUse(String name, int age) {

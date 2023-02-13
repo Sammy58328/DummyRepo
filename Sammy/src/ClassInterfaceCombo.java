@@ -8,7 +8,7 @@ class Sree {
 
 }
 
-interface sheetal {	
+interface sheetal {	 // An interface can be declared only public & abstract.
 	void ramen(); //Interface with abstract method is called Functional Interface.
 }					//Interface with no data-member or method is called Marker Interface.
 

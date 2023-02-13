@@ -18,6 +18,7 @@ public class Mapy {
 				
 				samp.put("Roll4","Madhu");
 				
+				
 				System.out.println(samp);
 				System.out.println(samp.entrySet());
 				

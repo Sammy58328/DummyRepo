@@ -25,7 +25,7 @@ public class RevStr {
 		System.out.println(a.substring(2));
 		System.out.println(a.substring(2,4));
 		System.out.println(a.charAt(2));
-		
+				
 		if (a==c)
 			System.out.println("The address are same");
 		else
@@ -36,6 +36,17 @@ public class RevStr {
 		System.out.println(d.strip());
 		System.out.println(d.replace('H','W'));
 		System.out.println(d.concat("World"));
+		
+		String e= new String("Ramesh");
+		String f= new String("Ramesh");
+		System.out.println("Both String equal ? ->" + e==f);
+		
+		System.out.println(a.hashCode());
+		System.out.println(b.hashCode());
+		System.out.println(c.hashCode());
+		System.out.println(d.hashCode());
+		System.out.println(e.hashCode());
+		System.out.println(f.hashCode());
 		
 	}
 	
