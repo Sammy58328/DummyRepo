@@ -10,6 +10,8 @@ public class Start {
 		Class sc = Class.forName("Starty");
 		Starty sm= (Starty)sc.newInstance();
 		sm.meta();		
+		
+		System.out.println(Runtime.getRuntime().availableProcessors());
 	}
 }
 
