@@ -4,7 +4,7 @@ public class DeQ {
 	
 	public static void main (String s[])
 	{
-		Deque<String> dq = new LinkedList<>();
+		Deque<String> dq = new LinkedList<>(); //Dequeue or Deque or Doubly ended queue
 		
 		dq.add("-E1-");
 		dq.addFirst("-E2-");
@@ -18,8 +18,8 @@ public class DeQ {
 		dq.push("-E6-");
 		System.out.println(dq);
 		
-		System.out.println("GetFirst is" +dq.getFirst()); //throws NoSuchElementException
-		System.out.println("GetLast is" +dq.getLast());
+		System.out.println("GetFirst is " +dq.getFirst()); //throws NoSuchElementException
+		System.out.println("GetLast is " +dq.getLast());
 		
 		dq.pop();
 		System.out.println(dq);
@@ -32,6 +32,7 @@ public class DeQ {
 		System.out.println(dq);
 		System.out.println(dq.pollLast());
 		
+		System.out.println(dq.offer("-E7-"));
 		dq.offer("-E7-");
 		System.out.println(dq); //returns boolean
 		

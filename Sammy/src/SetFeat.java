@@ -1,3 +1,4 @@
+import java.util.LinkedHashSet;
 import java.util.Set;
 import com.google.common.collect.Sets;
 
@@ -14,5 +15,93 @@ public class SetFeat {
 	System.out.println(s3);
 	System.out.println(s4);
 	System.out.println(s5);
+	
+	Set<Integer> s6= new LinkedHashSet<Integer>() 
+	{
+		{
+		add(12);
+		add(18);
+		add(24);
+		add(30);
+		add(36);
+		add(42);
+		add(48);
+		}
+		
+	};
+	
+	Set<Integer> s7= new LinkedHashSet<Integer>() 
+	{
+		{
+		add(30);
+		add(36);
+		add(42);
+		add(54);
+		add(60);
+		}
+		
+	};
+	s6.addAll(s7);  //Union
+	
+	System.out.println(s6);
+	
+	Set<Integer> s8= new LinkedHashSet<Integer>() 
+	{
+		{
+		add(12);
+		add(18);
+		add(24);
+		add(30);
+		add(36);
+		add(42);
+		add(48);
+		}
+		
+	};
+	
+	Set<Integer> s9= new LinkedHashSet<Integer>() 
+	{
+		{
+		add(30);
+		add(36);
+		add(42);
+		add(54);
+		add(60);
+		}
+		
+	};
+	
+	s8.retainAll(s9); 	//Intersection
+	System.out.println(s8);
+	
+	Set<Integer> s10= new LinkedHashSet<Integer>() 
+	{
+		{
+		add(12);
+		add(18);
+		add(24);
+		add(30);
+		add(36);
+		add(42);
+		add(48);
+		}
+		
+	};
+	
+	Set<Integer> s11= new LinkedHashSet<Integer>() 
+	{
+		{
+		add(30);
+		add(36);
+		add(42);
+		add(54);
+		add(60);
+		}
+		
+	};
+	
+	s10.removeAll(s11);	//Difference
+	System.out.println(s10);
+	
 	}
 	}

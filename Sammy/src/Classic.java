@@ -1,7 +1,7 @@
 
 public class Classic {
 	
-	static public int z; //Static variables are created when the program starts and destroyed when the program stops.
+	static public int z=12; //Static variables are created when the program starts and destroyed when the program stops.
 	
 	void stamen()
 	{

@@ -12,8 +12,8 @@ public class RegEx {
 		
 		System.out.println(s.replaceAll("[A-Za-z0-9]", ""));
 		
-		String p= "8,999";
-		System.out.println(s.replaceAll("[^0-9]", ""));
+		String p= " 8,999 ";
+		System.out.println(p.replaceAll("[^0-9]", "").trim());
 	}
 	
 

@@ -12,7 +12,7 @@ public class SingleTn {
 
 class Abacus {
 
-	static Abacus a = new Abacus();			//Declare object as static
+	private static Abacus a = new Abacus();			//Declare object as static
 
 	private Abacus() {						//Create Private Constructor
 		System.out.println("Private Constructor");

@@ -14,7 +14,7 @@ public class Exceptional {   //Exception extends Throwable extends Object
 	    	  // e.printStackTrace();
 	      }
 	        
-	        catch(Exception e){  //Checked or Static Exception occurred during compile time like FileNotFoundException
+	        catch(Exception e){  //UnChecked or Runtime Exception occurred during Run time
 		 	       System.out.println("Hello First");
 		 	    	  // e.printStackTrace();
 		 	       }

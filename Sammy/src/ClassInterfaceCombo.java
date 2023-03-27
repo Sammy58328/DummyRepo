@@ -1,7 +1,7 @@
 
 class Sree {
 	
-	void stamen()  //Type of object determined during Compile time is called Static binding. e.g. Public, Static, Final method
+	void stamen()  //Type of object determined during Compile time is called Static binding. e.g. Private, Static, Final method
 	{
 		System.out.println("Bello");
 	}
