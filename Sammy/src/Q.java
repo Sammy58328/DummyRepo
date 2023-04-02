@@ -1,11 +1,15 @@
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.concurrent.SynchronousQueue;
 
 public class Q {
 
 	public static void main(String[] args) {
 		
 		Queue<String> q = new LinkedList<>(); 
+		
+		//Other classes are PriorityQueue, SynchronousQueue etc.
 		
 		q.add("-E1-");
 		q.add("-E2-");
@@ -18,7 +22,10 @@ public class Q {
 		System.out.println(q.poll());
 		System.out.println(q);
 		
-		System.out.println(q.offer("-E6-"));
+		System.out.println(q.offer("-E6-")); 
+		
+		//offer() will return false if it fails to insert the element on a size restricted Queue
+		//add() will throw IllegalStateException - if the element cannot be added at this time due to capacity restrictions
 		System.out.println(q);
 	}
 

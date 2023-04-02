@@ -4,12 +4,12 @@ public class Start {
 	public static void main (String s[])throws Exception
 	
 	{
-		//Starty sm=new Starty();
+		//Start sm=new Start();
 		
 		
-		Class sc = Class.forName("Starty");
-		Starty sm= (Starty)sc.newInstance();
-		sm.meta();		
+		Class sc = Class.forName("Start");
+		Start sm= (Start)sc.newInstance();
+		//Dynamic class loading		
 		
 		System.out.println(Runtime.getRuntime().availableProcessors());
 	}
