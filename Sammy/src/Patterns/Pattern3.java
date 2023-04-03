@@ -8,6 +8,9 @@ public class Pattern3 {
 		char[] c = s.toCharArray();
 		int i;
 		
+		if (c.length==s.length())
+			System.out.println("Coding OP");
+		
 		for (i=0;i<s.length();i++) {
 			System.out.print(c[i]);
 			System.out.print(1);
