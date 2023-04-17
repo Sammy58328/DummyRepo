@@ -27,6 +27,17 @@ public class Q {
 		//offer() will return false if it fails to insert the element on a size restricted Queue
 		//add() will throw IllegalStateException - if the element cannot be added at this time due to capacity restrictions
 		System.out.println(q);
+		
+		
+		char i = 'z'+200;
+		byte d = (byte)i;
+		long j = (long)i;
+		short k = (short)i;
+		char a = (char)i;
+		float b = (float)i;
+		double c = (double)i;
+		
+		System.out.println(j+"\t"+k+"\t"+a+"\t"+b+"\t"+c+"\t"+d);
 	}
 
 }
