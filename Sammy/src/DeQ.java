@@ -18,8 +18,8 @@ public class DeQ {
 		dq.push("-E6-");
 		System.out.println(dq);
 		
-		System.out.println("GetFirst is" +dq.getFirst()); //throws NoSuchElementException
-		System.out.println("GetLast is" +dq.getLast());
+		System.out.println("GetFirst is " +dq.getFirst()); //throws NoSuchElementException
+		System.out.println("GetLast is " +dq.getLast());
 		
 		dq.pop();
 		System.out.println(dq);

@@ -4,7 +4,7 @@ interface Idasa{
 	}
 
  interface Inper extends Idasa{	
-	 void sada();
+	  void sada();
 }
  
 public class Inher implements Inper{
