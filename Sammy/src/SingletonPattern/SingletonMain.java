@@ -4,7 +4,7 @@ public class SingletonMain {    //Singleton pattern ensures only one instance of
 
     private static SingletonMain sm;    //private static instance of the class
 
-    private SingletonMain() {        //private constructor of the class
+    private SingletonMain() {        //private constructor of the class to avoid instantiation
 
     }
 
@@ -15,7 +15,7 @@ public class SingletonMain {    //Singleton pattern ensures only one instance of
         return sm;
     }
 
-    public void displayMsg() {
+    public void displayMsg() {      //This is Eager Initialization. There are also static initialization, Lazy initialization etc.
         System.out.println("Achieved Singleton");
     }
 }
