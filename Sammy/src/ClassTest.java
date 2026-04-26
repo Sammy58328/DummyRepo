@@ -13,7 +13,7 @@ public class ClassTest {
         String revSen = "", revWord = "";
         for (int i = 0; i < word.length; i++) {
             StringBuilder sb = new StringBuilder(word[i].substring(1));
-			revWord = word[i].substring(0, 1).toUpperCase() + String.valueOf(sb.reverse()) + " ";
+			revWord = word[i].substring(0, 1).toUpperCase() + sb.reverse().toString() + " ";
 			revSen = revSen + revWord;
         }
         return revSen;				//Berolagna Is Clatipa Of Kakatanra

@@ -1,15 +1,15 @@
+public class ContinueExample {
 
-public class ContinueExample { 
-	
-public static void main(String[] args) {  
-    //for loop  
-    for(int i=1;i<=6;i++){  
-        if(i==2){
-            System.out.println("Rubi Ray");
-            //not printing i==2; but printing others 
-            continue;//it will skip the rest statement  
-        }  
-        System.out.println(i);  
-    }  
-}  
+    public static void main(String[] args) {
+        //for loop
+        for (int i = 1; i <= 6; i++) {
+            if (i == 2) {
+                System.out.println("Rubi Ray");
+                //not printing i==2; but printing others
+                continue;//it will skip the rest statement
+            }
+            System.out.println("Kajol");
+            System.out.println(i);
+        }
+    }
 } 

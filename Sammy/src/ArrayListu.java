@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Collections;
 
 
 public class ArrayListu {
@@ -20,7 +21,9 @@ public class ArrayListu {
         System.out.println(oddNumbers.isEmpty()); 
         System.out.println(oddNumbers.contains(5)); 
         oddNumbers.sort(Comparator.reverseOrder());
-	
+        System.out.println(oddNumbers); 
+        
+        Collections.reverse(oddNumbers);	
         System.out.println(oddNumbers); 
         
         
