@@ -3,7 +3,7 @@ public class VarargsExm {
     public static int sum (int... numbers) {
         int sumation = 0;
         for (int number : numbers) {
-            sumation = sumation + number;
+            sumation += number;
         }
         return sumation;
     }

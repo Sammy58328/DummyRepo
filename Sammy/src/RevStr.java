@@ -17,7 +17,8 @@ public class RevStr {
 		String a="Ramesh";
 		String b="ramesh";
 		String c="Ramesh";
-		
+
+		System.out.println();
 		System.out.println("Both String equal ? ->" +a.equals(b));
 		
 		System.out.println("Both String equal ignoring case ? ->" +a.equalsIgnoreCase(b));

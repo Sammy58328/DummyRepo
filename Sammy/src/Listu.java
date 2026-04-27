@@ -14,8 +14,9 @@ public class Listu {
         };   //ArrayList act as List where as LinkedList acts as List & Queue
 
         System.out.println(samp);
-        Iterator<String> ita = samp.iterator();
-        System.out.println(ita.next());
+        Iterator<String> ita = samp.iterator(); //Iterating a list
+        while (ita.hasNext())
+            System.out.println(ita.next());
 
         System.out.println("Second element - " + samp.get(1));
         samp.set(2, "Dharmesh");
