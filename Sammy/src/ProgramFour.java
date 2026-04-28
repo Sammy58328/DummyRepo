@@ -10,7 +10,7 @@ public class ProgramFour {
 
         String words[] = input.split(" ");
 
-        LinkedHashSet<String> uniqueWords = new LinkedHashSet<>();
+        LinkedHashSet<String> uniqueWords = new LinkedHashSet<>(); //LinkedHashSet can't have duplicate values
 
         for(String word : words)
             uniqueWords.add(word);
