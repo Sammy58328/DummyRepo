@@ -4,7 +4,7 @@ public class Fibonacci {
 
         int n = 10; //no of terms
 
-        int a = 0, b = 1, c;
+        int a = 0, b = 1, c = 0;
 
         System.out.print(a + " ");
         System.out.print(b + " ");
@@ -18,5 +18,7 @@ public class Fibonacci {
 
             b = c;
         }
+        
+        System.out.println("\nThe " + n + "th element of the Fibonacci Series is - " +c);
     }
 }

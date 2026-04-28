@@ -6,6 +6,8 @@ public class ProgramFive {
 
         int target = 22;
 
+        //Fetch the index whose summation equals target
+
         for (int i = 0; i < nums.length; i++) {
 
             for (int j = i + 1; j < nums.length; j++) {

@@ -1,4 +1,4 @@
-import java.util.LinkedHashSet;
+import java.util.*;
 
 public class ProgramFour {
 
@@ -15,11 +15,11 @@ public class ProgramFour {
         for(String word : words)
             uniqueWords.add(word);
 
-        StringBuilder s = new StringBuilder();
-        for(String word : uniqueWords)
-            s.append(word).append(" ");
+        Iterator it = uniqueWords.iterator();
 
-        System.out.println(s);
+        while(it.hasNext())
+            System.out.print(it.next()+ " ");
+
     }
 
 }
