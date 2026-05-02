@@ -1,3 +1,5 @@
+import static java.lang.Character.*;
+
 public class ProgramSeven {
 
     public static void main(String args[]) {
@@ -11,7 +13,7 @@ public class ProgramSeven {
         int index = 0;
 
         for (int i = 0; i < input.length(); i++) {
-            if (Character.isLetter(input.charAt(i)))
+            if (isLetter(input.charAt(i)))
                 word = word + input.charAt(i);
         }
 
@@ -19,7 +21,7 @@ public class ProgramSeven {
         revWord = sb.reverse().toString();
 
         for (int i = 0; i < input.length(); i++) {
-            if (Character.isLetter(input.charAt(i)))
+            if (isLetter(input.charAt(i)))
                 newWord = newWord + revWord.charAt(index++);
             else
                 newWord = newWord + input.charAt(i);
